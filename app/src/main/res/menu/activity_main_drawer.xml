@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/posisi_bangunan"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_input"
+            android:title="Posisi Bangun Gedung" />
+        <item
+            android:id="@+id/nav_input_data"
+            android:checkable="false"
+            android:icon="@drawable/ic_menu_input"
+            android:title="Survey Gedung" />
+        <item
+            android:id="@+id/nav_list_survey"
+            android:icon="@drawable/ic_menu_list"
+            android:title="Daftar Bangun Gedung" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_history"
+            android:title="Riwayat Input Surveyor" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

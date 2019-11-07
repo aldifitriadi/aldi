@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Survey Bangun Gedung</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aldino</string>
+    <string name="nav_header_subtitle">660490</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Refresh</string>
+    <string name="action_all">Semua Data</string>
+    <string name="action_pertahun">Pertahun</string>
+    <string name="action_range_tahun">Range Tahun</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+
+    <string-array name="fungsi_gedung">
+        <item>Fungsi Hunian</item>
+        <item>Fungsi Keagamaan</item>
+        <item>Fungsi Usaha</item>
+        <item>Fungsi Budaya</item>
+        <item>Fungsi Khusus</item>
+        <item>Fungsi Campuran</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_hunian">
+        <item>-</item>
+        <item>Rumah Tinggal Tunggal</item>
+        <item>Rumah Tinggal Darat</item>
+        <item>Rumah Tinggal Susun</item>
+        <item>Rumah Tinggal Sementara</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_keagamaan">
+        <item>-</item>
+        <item>Masjid</item>
+        <item>Musholla</item>
+        <item>Gereja</item>
+        <item>Kepel</item>
+        <item>Vihara dan Kelenteng</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha">
+        <item>-</item>
+        <item>Bangunan Perkantoran</item>
+        <item>Bangunan Perdagangan</item>
+        <item>Bangunan Industri</item>
+        <item>Bangunan Perhotelan</item>
+        <item>B. Wisata dan Rekreasi</item>
+        <item>Bangunan Terminal</item>
+        <item>B. Tepat Penyimpanan</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_budaya">
+        <item>-</item>
+        <item>Bangunan Pendidikan</item>
+        <item>B. Pelayanan Kesehatan</item>
+        <item>Bangunan Kebudayaan</item>
+    </string-array>
+
+
+    <string-array name="fungsi_gedung_usaha_perkantoran">
+        <item>-</item>
+        <item>Pemerintah</item>
+        <item>Niaga</item>
+        <item>Sejenisnya</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_perdagangan">
+        <item>-</item>
+        <item>Pasar</item>
+        <item>Pertokoan Pusat Perbelanjaan</item>
+        <item>Mall</item>
+        <item>Sejenisnya</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_perindustrian">
+        <item>-</item>
+        <item>Industri Kecil</item>
+        <item>Industri Sedang</item>
+        <item>Industri Besar</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_perhotelan">
+        <item>-</item>
+        <item>Hotel</item>
+        <item>Motel</item>
+        <item>Hostel</item>
+        <item>Penginapan</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_wisatarekreasi">
+        <item>-</item>
+        <item>Tempat Rekreasi</item>
+        <item>Bioskop</item>
+        <item>Sejenisnya</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_terminal">
+        <item>-</item>
+        <item>Stasiun Kereta</item>
+        <item>Terminal Bus</item>
+        <item>Terminal Udara</item>
+        <item>Halte Bus</item>
+        <item>Pelabuhan Laut</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_usaha_penyimpanan">
+        <item>-</item>
+        <item>Gudang</item>
+        <item>Gedung Parkir</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_budaya_pendidikan">
+        <item>-</item>
+        <item>TK</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+        <item>Perguruan Tinggi</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_budaya_kesehatan">
+        <item>-</item>
+        <item>Puskesmas</item>
+        <item>Poliklinik</item>
+        <item>Rumah Bersalin</item>
+        <item>Rumah Sakit Kelas A</item>
+        <item>Rumah Sakit Kelas B</item>
+        <item>Rumah Sakit Kelas C</item>
+        <item>Sejenisnya</item>
+    </string-array>
+
+    <string-array name="fungsi_gedung_budaya_budaya">
+        <item>-</item>
+        <item>Museum</item>
+        <item>Gedung Kesenian</item>
+        <item>Sejenisnya</item>
+    </string-array>
+
+
+    <string-array name="jenis_kepimilikan_tanah">
+        <item>SHM</item>
+        <item>SHGB</item>
+        <item>SHGU</item>
+        <item>HP</item>
+        <item>SHSRS</item>
+        <item>Tanah Girik/Petok/Rincik/Ketitir/Verponding</item>
+    </string-array>
+
+    <string-array name="klasifikasi_bangunan">
+        <item>Bangunan Sederhana</item>
+        <item>Bangunan Tidak Sederhana</item>
+        <item>Bangunan Khusus</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_bangunan">Map</string>
+</resources>
